@@ -11,10 +11,6 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-
 df =  pd.read_csv(r"labeled_data.csv").drop(columns=['Unnamed: 0'])
 
 # Streamlit code
